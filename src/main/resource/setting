@@ -1,0 +1,14 @@
+[eclipse 설정]
+1. Code Style Fomatter 설정
+	(1) Window > Preferences > Java > Code Style > Formatter > Import... 실행
+	(2) src/main/resource 폴더에 위치한 codeformatter.xml 적용
+	
+2. Javadoc 생성을 위한 작업 환경
+	(1) Window > Preferences > Java > Code Style > Code Templates > Import... 실행
+	(2) src/main/resource 폴더에 위치한 codetemplates.xml 적용
+	(3) Project > Generate Javadoc... 실행
+	(4) VM Options 영역에서 -encoding UTF-8 -charset UTF-8 -docencoding UTF-8 입력해야만 UTF-8로 Javadoc 생성 
+
+
+	
+	
